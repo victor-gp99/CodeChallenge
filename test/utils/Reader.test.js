@@ -1,4 +1,4 @@
-const Reader = require("../../lib/Utils/Reader");
+const Reader = require("../../lib/utils/Reader");
 
 describe("Test for Reader class",()=>{
     test ("For readJsonFile function",()=>{
