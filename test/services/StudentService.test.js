@@ -17,5 +17,12 @@ describe("Test for StudentServiceS class",()=>{
         expect(studentsInNode.length).toBe(29);    
         
      })  
+
+     test ("For filterStudentsByCreditsMoreThan500S function",()=>{
+
+        const studentsInNode = StudentService.filterStudentsByCreditsMoreThan500S(students);
+        expect(studentsInNode.length).toBe(27);    
+        
+     })  
  })
  

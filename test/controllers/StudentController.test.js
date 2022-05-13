@@ -37,5 +37,34 @@ describe("Test for StudentController class",()=>{
         const studentsInNode = StudentController.filterEmailsByCertificationTrueC(students);
         expect(studentsInNode).toStrictEqual(["Todd@visualpartnership.xyz"]);
      })  
+
+     test ("For filterStudentsByCreditsMoreThan500C function",()=>{
+
+        const students = [{
+            "id": "6264d5d89f1df827eb84bb23",
+            "name": "Warren",
+            "email": "Todd@visualpartnership.xyz",
+            "credits": 501,
+            "enrollments": [
+              "Visual Thinking Intermedio",
+              "Visual Thinking Avanzado"
+            ],
+            "previousCourses": 1,
+            "haveCertification": true
+          },
+          {
+            "id": "6264d5d85cf81c496446b67f",
+            "name": "Lucinda",
+            "email": "Sexton@visualpartnership.xyz",
+            "credits": 400,
+            "enrollments": [
+              "Visual Thinking Avanzado"
+            ],
+            "previousCourses": 6,
+            "haveCertification": false
+          }]
+        const studentsInNode = StudentController.filterStudentsByCreditsMoreThan500C(students);
+        expect(studentsInNode.length).toBe(1);
+     }) 
  })
  
