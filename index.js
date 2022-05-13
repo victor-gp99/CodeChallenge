@@ -5,4 +5,7 @@ const students = Reader.readJsonFile("visualpartners.json");
 // console.log(students);
 
 const prueba = StudentService.seeAllStudentsS(students);
-console.log(prueba.length);
+// console.log(prueba.length);
+
+const prueba2 = StudentService.filterEmailsByCertificationTrueS(students);
+// console.log(prueba2);
