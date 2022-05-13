@@ -13,4 +13,5 @@ Por otra parte para reforzar las pruebas se agrego las pruebas automatizadas atr
 
 ![alt text](https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png)
 Referencia: https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/blob/main/semanas/semana_4/5_code_challenge.md
-Gracias al MC @carlogilmar por todo lo enseñado en el programa de LaunchX Formacion de developers. :)
+
+Gracias al MC @carlogilmar por todo lo enseñado en el programa de LaunchX Formacion de developers. 
